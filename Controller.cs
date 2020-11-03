@@ -5,14 +5,17 @@ class Controller
 {
     Model model;
     //Конструктор контроллера
-    public Controller(double a, double b, double c, int accuracy, int maxValueAbs)
+    public Controller()
     {
-        model = new Model(a, b, c, accuracy, maxValueAbs);
+        model = new Model();
     }
 
-    public List<object> Input
+    public void Input(object a, object b, object c, object accuracy, object maxValueAbs)
     {
-        get { return model.obj; }
+        model.obj.Add(a);
+        model.obj.Add(b);
+        model.obj.Add(c);
+        model.Solution((int)accuracy, (int)maxValueAbs);
     }
 
     public List<object> Output

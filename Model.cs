@@ -6,14 +6,10 @@ class Model
     internal List<object> obj; //Список входных данных
     internal List<object> roots; //Список выходных данных
     //Конструктор модели
-    public Model(object a, object b, object c, object accuracy, object maxValueAbs)
+    public Model()
     {
         roots = new List<object>();
         obj = new List<object>();
-        obj.Add(a);
-        obj.Add(b);
-        obj.Add(c);
-        Solution((int)accuracy, (int)maxValueAbs);
     }
     
     public List<object> Solution(int accuracy, int maxValueAbs)

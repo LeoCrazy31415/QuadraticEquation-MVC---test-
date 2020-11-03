@@ -13,7 +13,8 @@ class Program
         double b = Convert.ToDouble(Console.ReadLine());
         Console.Write("c: ");
         double c = Convert.ToDouble(Console.ReadLine());
-        Controller controller = new Controller(a, b, c, accuracy, maxValueAbs);
+        Controller controller = new Controller();
+        controller.Input(a, b, c, accuracy, maxValueAbs);
         Console.Write($"Корни уравнения: ");
         foreach (object obj in controller.Output)
         {

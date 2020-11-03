@@ -5,3 +5,10 @@ C:\Users\nikna\OneDrive\Рабочий стол\QuadraticEquation\obj\Debug\Quad
 C:\Users\nikna\OneDrive\Рабочий стол\QuadraticEquation\obj\Debug\QuadraticEquation.csproj.CoreCompileInputs.cache
 C:\Users\nikna\OneDrive\Рабочий стол\QuadraticEquation\obj\Debug\QuadraticEquation.exe
 C:\Users\nikna\OneDrive\Рабочий стол\QuadraticEquation\obj\Debug\QuadraticEquation.pdb
+C:\GitHub\FirstRep\QuadraticEquation (MVC - test)\bin\Debug\QuadraticEquation.exe.config
+C:\GitHub\FirstRep\QuadraticEquation (MVC - test)\bin\Debug\QuadraticEquation.exe
+C:\GitHub\FirstRep\QuadraticEquation (MVC - test)\bin\Debug\QuadraticEquation.pdb
+C:\GitHub\FirstRep\QuadraticEquation (MVC - test)\obj\Debug\QuadraticEquation.csprojAssemblyReference.cache
+C:\GitHub\FirstRep\QuadraticEquation (MVC - test)\obj\Debug\QuadraticEquation.csproj.CoreCompileInputs.cache
+C:\GitHub\FirstRep\QuadraticEquation (MVC - test)\obj\Debug\QuadraticEquation.exe
+C:\GitHub\FirstRep\QuadraticEquation (MVC - test)\obj\Debug\QuadraticEquation.pdb
