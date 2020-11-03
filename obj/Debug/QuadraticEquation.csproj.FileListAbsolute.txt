@@ -1,0 +1,7 @@
+C:\Users\nikna\OneDrive\Рабочий стол\QuadraticEquation\bin\Debug\QuadraticEquation.exe.config
+C:\Users\nikna\OneDrive\Рабочий стол\QuadraticEquation\bin\Debug\QuadraticEquation.exe
+C:\Users\nikna\OneDrive\Рабочий стол\QuadraticEquation\bin\Debug\QuadraticEquation.pdb
+C:\Users\nikna\OneDrive\Рабочий стол\QuadraticEquation\obj\Debug\QuadraticEquation.csprojAssemblyReference.cache
+C:\Users\nikna\OneDrive\Рабочий стол\QuadraticEquation\obj\Debug\QuadraticEquation.csproj.CoreCompileInputs.cache
+C:\Users\nikna\OneDrive\Рабочий стол\QuadraticEquation\obj\Debug\QuadraticEquation.exe
+C:\Users\nikna\OneDrive\Рабочий стол\QuadraticEquation\obj\Debug\QuadraticEquation.pdb
