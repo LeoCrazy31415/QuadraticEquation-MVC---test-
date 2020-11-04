@@ -3,16 +3,33 @@ using System.Collections.Generic;
 
 class Model
 {
-    internal List<object> obj; //Список входных данных
-    internal List<object> roots; //Список выходных данных
+    List<object> obj; //Список входных данных
+    List<object> roots; //Список выходных данных
+    int maxValueAbs;
+    int accuracy;
     //Конструктор модели
     public Model()
     {
-        roots = new List<object>();
         obj = new List<object>();
+        roots = new List<object>();        
+        maxValueAbs = 10000;
+        accuracy = 4;
     }
     
-    public List<object> Solution(int accuracy, int maxValueAbs)
+    public void Input(object a, object b, object c)
+    {
+        obj.Add(a);
+        obj.Add(b);
+        obj.Add(c);
+        Solution();
+    }
+
+    public List<object> Output
+    {
+        get { return roots; }
+    }
+
+    private List<object> Solution()
     {
         double a = (double)obj[0];
         double b = (double)obj[1];
@@ -21,7 +38,7 @@ class Model
         if (Math.Abs(a) > maxValueAbs || Math.Abs(b) > maxValueAbs || Math.Abs(c) > maxValueAbs)
         {
             roots.Clear();
-            roots.Add("Слишком большие числа!");
+            roots.Add("Вы ввели слишком большие числа!");
             return roots;
         }
         if (Check(obj))
@@ -93,6 +110,7 @@ class Model
             roots.Add("Это не уравнение");
         return roots;
     }
+
     private bool Check(List<object> obj) //Проверка на соответствие требованиям уравнения
     {
         if ((double)obj[0] != 0 && (double)obj[1] != 0)

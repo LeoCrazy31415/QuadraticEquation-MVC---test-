@@ -10,17 +10,13 @@ class Controller
         model = new Model();
     }
 
-    public void Input(object a, object b, object c, object accuracy, object maxValueAbs)
+    public void Input(object a, object b, object c)
     {
-        model.obj.Add(a);
-        model.obj.Add(b);
-        model.obj.Add(c);
-        model.Solution((int)accuracy, (int)maxValueAbs);
+        model.Input(a, b, c);
     }
 
     public List<object> Output
     {
-        set { model.roots = value; }
-        get { return model.roots; }
+        get { return model.Output; }
     }
 }
