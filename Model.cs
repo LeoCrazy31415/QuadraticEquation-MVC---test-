@@ -5,14 +5,12 @@ class Model
 {
     List<object> obj; //Список входных данных
     List<object> roots; //Список выходных данных
-    int maxValueAbs;
     int accuracy;
     //Конструктор модели
     public Model()
     {
         obj = new List<object>();
         roots = new List<object>();        
-        maxValueAbs = 10000;
         accuracy = 4;
     }
     
@@ -35,12 +33,6 @@ class Model
         double b = (double)obj[1];
         double c = (double)obj[2];
         //Если слишком большие значения
-        if (Math.Abs(a) > maxValueAbs || Math.Abs(b) > maxValueAbs || Math.Abs(c) > maxValueAbs)
-        {
-            roots.Clear();
-            roots.Add("Вы ввели слишком большие числа!");
-            return roots;
-        }
         if (Check(obj))
         {
             double D = Math.Pow(b, 2) - 4 * a * c;
